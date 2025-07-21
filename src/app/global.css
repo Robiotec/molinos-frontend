@@ -1,0 +1,127 @@
+/* Login */
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    max-width: 400px;
+    padding: 15px;
+}
+
+.form-signin img {
+    margin-bottom: 20px;
+}
+
+.form-signin h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    margin-bottom: 15px;
+}
+
+.btn-sidebar {
+    background-color: #007bff;
+    border-color: #d78300;
+    padding: 10px;
+}
+
+.btn-sidebar:hover {
+    background-color: #d34400;
+    border-color: #000000;
+}
+
+/* Sidebar */
+aside {
+    color: #fff;
+    background-color: #d78300;
+}
+
+.sidebar-btn-group .btn {
+    height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sidebar-btn-group .btn:active {
+    background: #6c757d;
+    color: #fff;
+    font-weight: bold;
+    border-color: #000;
+}
+
+.sidebar-btn-group .active {
+    background: #fff;
+    color: #d78300;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.sidebar-btn-group .logout {
+    background: #fff;
+    color: #ff1919;
+}
+
+/* Mills */
+
+.card-mill:hover {
+    box-shadow: 0 0.5rem 1rem rgba(141, 141, 141, 0.95);
+}
+
+.card-mill .mill-img {
+    width: 60%;
+}
+
+.light-alarm {
+    border-color: rgba(225, 47, 47, 0.95);
+    box-shadow: 0 0.5rem 1rem rgba(225, 47, 47, 0.95);
+}
+
+.traffic-light {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.light-success {
+    background-color: #43BE5B;
+    fill: #43BE5B;
+    color: #ffffff;
+    box-shadow: 0 0.2rem 0.5rem rgba(67, 190, 91, 0.95);
+}
+
+.light-warning {
+    background-color: #FFC107;
+    fill: #FFC107;
+    color: #ffffff;
+    box-shadow: 0 0.2rem 0.5rem rgba(255, 193, 7, 0.95);
+}
+
+.light-danger {
+    background-color: #E12F2F;
+    fill: #E12F2F;
+    color: #ffffff;
+    box-shadow: 0 0.2rem 0.5rem rgba(225, 47, 47, 0.95);
+}
+
+/* Mill Icons */
+.enable-background-new {
+    enable-background: new 0 0 512 512;
+}
+
+.vh-70 {
+    height: 70vh !important;
+}

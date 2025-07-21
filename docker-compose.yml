@@ -1,0 +1,23 @@
+version: "3.7"
+
+networks:
+  molino:
+    name: molino-net
+    driver: bridge
+
+services:
+  web:
+    ports:
+      - "4000:3000"
+    build:
+      context: .
+      dockerfile: node.dockerfile
+    image: molino-web
+    container_name: molino-frontend-web
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    restart: always
+    networks:
+      - molino
